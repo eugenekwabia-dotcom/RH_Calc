@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RH CALc</string>
+
+    <string name="action_enter_temperature">Enter Temperature</string>
+    <string name="action_view_report">View Weather Report</string>
+    <string name="action_history">History</string>
+    <string name="action_calculate">Calculate</string>
+    <string name="action_send_to_report">Send to Report</string>
+    <string name="action_clear_all">Clear All</string>
+
+    <string name="hint_wet_bulb">Wet-bulb temperature (°C)</string>
+    <string name="hint_dry_bulb">Dry-bulb temperature (°C)</string>
+    <string name="hint_pressure">Pressure (hPa)</string>
+
+    <string name="lux_placeholder">Light: -- lux</string>
+    <string name="pressure_placeholder">Pressure: -- hPa</string>
+    <string name="lux_format">Light: %1$.0f lux</string>
+    <string name="pressure_format">Pressure: %1$.1f hPa</string>
+    <string name="barometer_unavailable">Barometer unavailable on this device</string>
+
+    <string name="error_required">Required</string>
+    <string name="error_wetbulb_exceeds_drybulb">Wet-bulb cannot exceed dry-bulb.</string>
+    <string name="error_calculate_first">Calculate a result first</string>
+    <string name="error_no_report_yet">No calculations yet</string>
+    <string name="warning_pressure_out_of_range">Pressure is outside the typical 800-1100 hPa range</string>
+
+    <string name="result_format">Tw = %1$.1f °C, Td = %2$.1f °C, P = %3$.1f hPa\nRH = %4$.1f %%</string>
+    <string name="report_format">Dry-bulb: %1$.1f °C\nWet-bulb: %2$.1f °C\nPressure: %3$.1f hPa\nRelative Humidity: %4$.1f %%\n%5$s</string>
+
+    <string name="history_item_summary">Td %1$.1f °C / Tw %2$.1f °C — RH %3$.1f %%</string>
+    <string name="history_empty">No history yet. Calculate a reading to see it here.</string>
+
+    <string name="altitude_format">Altitude (from pressure): %1$.0f m</string>
+    <string name="device_humidity_format">Device humidity sensor: %1$.1f %% (vs. calculated)</string>
+    <string name="device_humidity_unavailable">Device humidity sensor: not available on this device</string>
+</resources>
